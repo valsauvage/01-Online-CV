@@ -1,2 +1,2 @@
 # Project001
-Cours OCR
+My online Curriculum Vitae
