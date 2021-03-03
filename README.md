@@ -1,2 +1,2 @@
-# Project001
-My online Curriculum Vitae
+# project001 - Online CV
+This is my online Curriculum Vitae project.
