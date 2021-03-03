@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', Georgia, sans-serif;
+    text-align: justify;
+}
+#page {
+    width: 80%;
+    margin: auto;
+}
+section {
+    margin-bottom: 6.4em;
+}
+blockquote {
+    max-width: 600px;
+    line-height: 1.6em;
+    padding-left: 32px;
+    border-left: 2px solid dimgray;
+}
+p {
+    max-width: 800px;
+}
+h1 {
+    font-size: 3.2em;
+    margin-bottom: 0;
+    line-height: 0.8;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 0.8em;
+}
