@@ -1,2 +1,4 @@
 # project001 - Online CV
-This is my online Curriculum Vitae project.
+This is my online Resume project. 📄
+
+https://valsauvage.github.io/project001-online-CV/
