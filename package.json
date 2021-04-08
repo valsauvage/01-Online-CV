@@ -1,0 +1,19 @@
+{
+  "name": "01-online-cv",
+  "version": "1.0.0",
+  "description": "This is my online Resume project. 📄",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valsauvage/project001-online-CV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valsauvage/project001-online-CV/issues"
+  },
+  "homepage": "https://github.com/valsauvage/project001-online-CV#readme"
+}
