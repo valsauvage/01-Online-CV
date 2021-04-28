@@ -3,39 +3,56 @@
   margin: auto;
 }
 
+.fullscreen {
+  width: 100%;
+  height: 100vh;
+}
+
 p {
+  font-size: 0.8em;
   max-width: 800px;
 }
 
 h1 {
-  font-size: 25em;
+  font-size: 6em;
   margin: 0;
   line-height: 1;
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 3.2em;
 }
 
 h3 {
-  font-size: 0.8em;
+  font-size: 1.6em;
 }
 
 body {
   font-family: "Open Sans", Georgia, sans-serif;
   text-align: justify;
+  color: #191816;
 }
 
-#hero {
+.years__line {
+  min-width: 20px;
+  max-width: 80vw;
+  border-bottom: 2px solid #F2D7A0;
+}
+
+.hero {
   width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#hero h2 {
-  margin-left: 1.2em;
+.hero__title {
+  font-size: 25em;
+}
+
+.hero__subtitle {
+  font-size: 6em;
+  font-weight: 400;
 }
 
 section {
