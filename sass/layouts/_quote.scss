@@ -1,0 +1,30 @@
+.quote {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: auto;
+}
+.quote-left {
+    text-align: center;
+}
+.quote-left__mark {
+    font-size: $very-big;
+}
+span.quote-left__mark {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 0.6;
+    margin-top: -20px;
+}
+.quote-left__date-and-time {
+    margin-top: -20px;
+}
+.quote__string {
+    font-size: $very-small * 1.5;
+    margin-left: 2em;
+        &:after {
+            margin-left: 0.5em;
+            font-weight: 700;
+            content: "»";
+        }
+}
