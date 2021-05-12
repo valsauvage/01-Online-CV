@@ -1,0 +1,64 @@
+footer {
+    background-color: $vscolor-primary-black;
+    color: $vscolor-light-white;
+    & a {
+        color: $vscolor-light-white;
+    }
+}
+.contact {
+    min-width: 80%;
+    display: flex;
+    align-items: center;
+    &__links {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        align-items: center;
+        padding: 6em;
+        &__wrap {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__social {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 100%;
+            &-icon {
+                padding-right: 1em;
+            }
+        }
+    }
+    &__msg {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        & div {
+            display: flex;
+        }
+    }
+}
+.contact__msg h2 {
+    font-size: $large;
+    font-weight: normal;
+    color: $vscolor-light-white;
+    text-shadow:
+        0 -0.03em $vscolor-primary-black,
+        0 0.03em $vscolor-primary-black,
+        0.03em 0 $vscolor-primary-black,
+        -0.03em 0 $vscolor-primary-black,
+        0.06em 0 $vscolor-primary-black,
+        -0.06em 0 $vscolor-primary-black,
+        0.09em 0 $vscolor-primary-black,
+        -0.09em 0 $vscolor-primary-black,
+        0.12em 0 $vscolor-primary-black,
+        -0.12em 0 $vscolor-primary-black;
+    background-image: linear-gradient($vscolor-golden-yellow, $vscolor-sunset-coral);
+    background-size: 4px 4px;
+    background-repeat: repeat-x;
+    background-position: 0% 90%;
+}
