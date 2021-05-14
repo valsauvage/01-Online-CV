@@ -1,9 +1,6 @@
-footer {
+.footer {
     background-color: $vscolor-primary-black;
     color: $vscolor-light-white;
-    & a {
-        color: $vscolor-light-white;
-    }
 }
 .contact {
     min-width: 80%;
