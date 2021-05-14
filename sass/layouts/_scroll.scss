@@ -1,7 +1,6 @@
 .scroll {
     width: 100px;
     height: 100px;
-    align-items: center;
     text-align: center;
     margin-top: auto;
 }
@@ -10,7 +9,7 @@
     height: 100px;
     border: 1px solid $vscolor-primary-black;
     position: relative;
-    top: -100px;
+    top: -116px;
     left: 0;
     transform: rotate(45deg);
 }
