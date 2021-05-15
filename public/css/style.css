@@ -83,6 +83,20 @@ h3 {
   color: #F8F4E9;
 }
 
+.footer svg {
+  width: 32px;
+  height: 32px;
+  margin-right: 1em;
+}
+
+.footer svg path {
+  fill: #F8F4E9;
+}
+
+.footer a:hover svg path {
+  fill: #F2D7A0;
+}
+
 .contact {
   min-width: 80%;
   display: -webkit-box;
@@ -117,13 +131,27 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+.contact__links__wrap-text {
+  margin-bottom: 1em;
+}
+
+.contact__links__wrap-text a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__links__wrap-text a svg {
+  width: 16px;
+  height: 16px;
 }
 
 .contact__links__social {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,11 +162,6 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100%;
-}
-
-.contact__links__social-icon {
-  padding-right: 1em;
 }
 
 .contact__msg {
