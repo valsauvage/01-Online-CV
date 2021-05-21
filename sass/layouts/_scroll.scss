@@ -2,14 +2,26 @@
     width: 100px;
     height: 100px;
     text-align: center;
-    margin-top: auto;
+    margin-top: 100px;
+    transition: 400ms;
+    &:hover {
+        color: $vscolor-golden-yellow;
+        cursor: pointer;
+    }
+    &:hover .scroll__diamond {
+        border: 2px solid $vscolor-golden-yellow;
+        transform: rotate(225deg);
+    }
 }
 .scroll__diamond {
     width: 100px;
     height: 100px;
     border: 1px solid $vscolor-primary-black;
     position: relative;
-    top: -116px;
+    top: -60px;
     left: 0;
     transform: rotate(45deg);
+    transition: 400ms;
+    pointer-events: none;
+
 }
