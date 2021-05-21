@@ -1,7 +1,5 @@
 .quote {
     display: flex;
-    height: auto;
-    margin-top: auto;
 }
 .quote-left {
     text-align: center;
@@ -21,6 +19,8 @@ span.quote-left__mark {
 .quote__string {
     font-size: $very-small * 1.5;
     margin-left: 2em;
+    display: flex;
+    align-items: center;
         &:after {
             margin-left: 0.5em;
             font-weight: 700;

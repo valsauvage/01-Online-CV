@@ -7,14 +7,15 @@
     width: 100%;
     margin: auto;
 }
-a {
+a:link, a:visited {
     text-decoration: none;
     color: $vscolor-primary-black;
-}
-a:link, a:visited {
-	color: $vscolor-golden-yellow;
-	text-decoration: none;
+    font-weight: bold;
+//     opacity: 0.5;
 }
 a:hover, a:active {
-	text-decoration: underline;
+    opacity: 1;
+    color: $vscolor-golden-yellow;
+    text-decoration: underline;
+	// text-decoration: underline;
 }

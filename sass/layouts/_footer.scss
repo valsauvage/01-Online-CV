@@ -6,12 +6,19 @@
         height: 32px;
         margin-right: 1em;
         & path {
-        fill: $vscolor-light-white;
-        // background: $vscolor-light-white;
+        fill: $vscolor-golden-yellow;
         }
     }
+    & a:link, a:visited {
+        color: $vscolor-golden-yellow;
+        font-weight: normal;
+        opacity: 1;
+    }
+    & a:hover, a:active {
+        color: $vscolor-light-white;
+    }
     & a:hover svg path {
-        fill: $vscolor-golden-yellow;
+        fill: $vscolor-light-white;
     }
 }
 .contact {
